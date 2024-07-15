@@ -44,7 +44,7 @@ const PermitDetails = () => {
                 </div>
             </section>
 
-            <section id="userInfo">
+            <section id="userInfo" className="permitDetailsSection">
                 <div className="container userInfo">
                     <h2>Applicant Information</h2>
                     <div class="form-group row">
@@ -78,7 +78,7 @@ const PermitDetails = () => {
 
             <div className="horizantal-line" />
 
-            <section id="propertyInfo">
+            <section id="propertyInfo" className="permitDetailsSection">
                 <div className="container">
                     <h2>Property Information</h2>
                     <div class="form-group row">
@@ -107,7 +107,7 @@ const PermitDetails = () => {
 
             <div className="horizantal-line" />
 
-            <section id="projectDesc">
+            <section id="projectDesc" className="permitDetailsSection">
                 <div className="container">
                     <h2>Property Description</h2>
                     <div class="form-group row">
@@ -141,7 +141,7 @@ const PermitDetails = () => {
 
             <div className="horizantal-line" />
 
-            <section id="types">
+            <section id="types" className="permitDetailsSection">
                 <div className="container">
                     <h2>Permit Type</h2>
                     <div class="form-group row">
